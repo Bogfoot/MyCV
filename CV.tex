@@ -1,0 +1,149 @@
+% CV in LaTeX
+\documentclass[12pt]{article} % article with 12pt font
+%% PACKAGES %%
+
+\usepackage[english]{babel} % multilingual support
+\usepackage[utf8]{inputenc} % encoding
+\usepackage{blindtext} % to insert blind text
+% Set the default font
+\usepackage{tgpagella}
+% set the page layout
+\usepackage{geometry}
+\geometry{
+  a4paper,
+  left=20mm,
+  %right=
+  %bottom=
+  top=15mm}
+% empty the headers, footers, pagenumbers…
+\pagestyle{empty}
+% Custom sectioning with secsty
+\usepackage{sectsty}
+
+\sectionfont{%                        
+    \large % make sections smaller
+    \fontfamily{qag}\selectfont % change font family
+    \sectionrule{0pt}{0pt}{-5pt}{1pt} % insert a thin rule
+}
+%% MACROS %%
+
+% size of the boxes used to align text
+\newlength{\spacebox}
+\settowidth{\spacebox}{123456789}
+% vertical space separator between entries
+\newcommand{\sepspace}{\vspace*{1em}}
+% name
+\newcommand{\name}[1]{
+\Huge % font size
+\fontfamily{phv}\selectfont % font family
+% print name centered and bold
+\begin{center} \textbf{#1} \end{center}\par
+% back to normal size and font
+\normalsize\normalfont}
+% motto
+\newcommand{\motto}[1]{
+  \large % font size
+  \fontfamily{phv}\selectfont % font family
+% print motto centered and slanted
+  \begin{center} \textsl{#1}\end{center}\par
+% back to normal size and font
+  \normalsize \normalfont}
+% personal information
+\newcommand{\info}[2]{
+% set specific indentation for personal information
+  \noindent\hangindent=2em\hangafter=0
+% create a box to align two pieces of text
+  \parbox{\spacebox}{%
+  \textsl{#1}} % slanted entry name
+  #2 \par} % entry value
+% skill
+\newcommand{\skill}[2]{
+% set specific indentation for personal information
+\noindent\hangindent=2em\hangafter=0
+% create a box to align two pieces of text
+\parbox{3\spacebox}{% three times larger box
+\textsc{#1}} % small caps entry name
+#2 \par} % entry value
+
+% language level
+\newcommand{\lan}[2]{
+    % set specific indentation for personal information
+    \noindent\hangindent=2em\hangafter=0
+    % create a box to align two pieces of text
+    \parbox{\spacebox}{%
+        \textbf{#1}} % bold font entry name
+     #2 \par}    % entry value
+% education entry
+\newcommand{\education}[4]{
+
+% name of the studies
+  \noindent  \textbf{#1}
+  % at the right the duration
+    \hfill 
+    \framebox{% duration inside a frame box
+    \parbox{6em}{%
+    \centering\textbf{#2}}} \par
+ % new paragraph with the school in italics
+     \noindent \textit{#3} \par
+     % description with no hanging and in smaller text
+     \vspace*{0.5em}
+     \noindent\hangindent=2em\hangafter=0 \small #4 
+%back to normal size
+\normalsize \par}
+% work experience
+
+\newcommand{\work}[4]{
+% name of the work
+  \noindent  \textbf{#1}
+% at the right the duration
+  \hfill 
+\framebox{% duration inside a frame box
+  \parbox{6em}{%
+  \centering\textbf{#2}}} \par
+% new paragraph with the school in italics
+  \noindent \textit{#3} \par
+% description with no hanging and in smaller text
+  \vspace*{0.5em}
+  \noindent\hangindent=2em\hangafter=0 \small #4 
+%back to normal size
+\normalsize \par}
+
+\begin{document}
+% name and motto
+\name{C.V.\\Adrian Udovičić}
+\vspace*{-10pt}
+\motto{} %Motto I like to move it move it
+
+% personal information
+\sepspace
+\info{Email}{adrian.udovicic@outlook.com}
+\info{Phone}{+385 91 910 3040}
+\info{Address}{Ulica Ante Kovačića 12A, 23000 Zadar, Croatia}
+\info{Born}{June 14th 1994}
+% education
+\section*{Education}
+\education{Masters in Physics}{2019--2022}{University of Rijeka, Faculty of Physics}{Search for Transient Signals via Dark Matter Detector, A. Udovičić, M. Karuza}
+\education{Bachelors Degree in Physics}{2013--2018}{University of Rijeka, Department of Physics}{Spectral analysis from AGN Markarian 421 in very high energy Gamma region, A. Udovičić, T. Terzić}
+
+% work experience
+\section*{Work Experience}
+\work{Tutor}{2017-2021}{Rijeka}{Physics and math tutor for elementary school, highschool, and college students. Programming tutor for highschool and college students.}
+\work{Masters thesis}{2021-2022}{Rijeka}{In the laboratory for quantum and nonlinear optics for my masters thesis.}
+
+% technical skills
+\section*{Technical skills}
+\skill{Programming languages}{\textsc{Python}, \textsc{C++}, \textsc{C}, \textsc{Fortran}}
+\skill{Computational tools}{\textsl{\LaTeX, Mathematica, Origin,  LabView}}
+\skill{Computational tools}{\textsl{Office Suite, CAD software}}
+\skill{Computational tools}{\textsl{GNUPlot, Oracle SQL, PowerBuilder, Matlab}}
+\skill{Computational tools}{\textsl{Solidworks, Circuit Maker}}
+% \skill{Other}{\textsl{Linux, Windows, Git, Vim}}
+% languages
+\section*{Languages}
+\lan{Croatian}{Native}
+\lan{English}{Excellent}
+\lan{German}{Fluent}\\
+\hfill Approved: \hrulefill
+\hspace*{0mm}\hspace{2mm}Adrian Udovičić
+
+\end{document}

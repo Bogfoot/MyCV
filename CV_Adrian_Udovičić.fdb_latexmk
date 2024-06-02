@@ -1,12 +1,11 @@
 # Fdb version 3
-["pdflatex"] 1685617861 "CV.tex" "CV.pdf" "CV" 1685617861
-  "/etc/texmf/web2c/texmf.cnf" 1652911740 475 c0e671620eb5563b2130f56340a5fde8 ""
+["pdflatex"] 1711213200 "CV_Adrian_Udovičić.tex" "CV_Adrian_Udovičić.pdf" "CV_Adrian_Udovičić" 1711213200
+  "/etc/texmf/web2c/texmf.cnf" 1701734211 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1136768653 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1136768653 4484 b828043cbd581d289d955903c1339981 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvr7t.tfm" 1136768653 2520 53e01eef820ca829e42c1333c3fd02b9 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvro7t.tfm" 1136768653 2772 ab6561c8ff5ee69ff6d5961b9356db5a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm" 1136768653 1520 eccf95517727cb11801f4f1aee3a21b4 ""
@@ -52,11 +51,11 @@
   "/usr/share/texmf/tex/latex/tex-gyre/ot1qpl.fd" 1480098840 1660 e9b22d666df8ddf20235e469d85dea27 ""
   "/usr/share/texmf/tex/latex/tex-gyre/tgpagella.sty" 1480098840 2230 fc853fd117e6b73f5d6716214d3abb3c ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1652911773 4379155 98693266ff65f58d9f98aff394de12d2 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1685595457 2799624 81cb88ca7cd2b9eff6e7999d8b87e9e6 ""
-  "CV.aux" 1685363549 112 d2ca28f0a8afe573a12973a007b9ea93 "pdflatex"
-  "CV.tex" 1685363587 4780 8a0e2c0f032edd137ad83d15c73ca71d ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1709648358 4379155 98693266ff65f58d9f98aff394de12d2 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1710430411 2800412 a1920038dd817276b116b1c69c74f40e ""
+  "CV_Adrian_Udovičić.aux" 1711213200 112 d2ca28f0a8afe573a12973a007b9ea93 "pdflatex"
+  "CV_Adrian_Udovičić.tex" 1711213198 5078 69c054663cc2e64d0d976da62c1b7d2c ""
   (generated)
-  "CV.aux"
-  "CV.log"
-  "CV.pdf"
+  "CV_Adrian_Udovičić.aux"
+  "CV_Adrian_Udovičić.log"
+  "CV_Adrian_Udovičić.pdf"

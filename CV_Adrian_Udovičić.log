@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.1)  1 JUN 2023 13:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.14)  23 MAR 2024 18:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**CV.tex
-(./CV.tex
+**CV_Adrian_Udovičić.tex
+(./CV_Adrian_Udovičić.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -35,9 +35,9 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language4). Reported on input line 105.
+(babel)             (\language10). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language4). Reported on input line 108.
+(babel)             (\language10). Reported on input line 108.
 )) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
@@ -115,8 +115,8 @@ File: ot1qpl.fd 2009/09/25 v1.2 font definition file for OT1/qpl
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count282
 \l__pdf_internal_box=\box50
-) (./CV.aux)
-\openout1 = `CV.aux'.
+) (./CV_Adrian_Udovičić.aux)
+\openout1 = `CV_Adrian_Udovičić.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
 LaTeX Font Info:    ... okay on input line 111.
@@ -181,44 +181,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 119.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 119.
-LaTeX Font Info:    Trying to load font information for OT1+qag on input line 124.
+LaTeX Font Info:    Trying to load font information for OT1+qag on input line 125.
 (/usr/share/texmf/tex/latex/tex-gyre/ot1qag.fd
 File: ot1qag.fd 2009/09/25 v1.2 font definition file for OT1/qag
 )
-Overfull \hbox (6.2005pt too wide) in paragraph at lines 126--126
+Overfull \hbox (6.2005pt too wide) in paragraph at lines 128--128
 \OT1/qpl/m/n/10.95 Spectral anal-y-sis from AGN Markar-ian 421 in very high en-ergy Gamma re-gion, A. Udovi[]ci[]c,
  []
 
 
 LaTeX Font Warning: Font shape `OT1/qpl/m/sl' in size <8> not available
-(Font)              Font shape `OT1/qpl/m/it' tried instead on input line 136.
-
-
-./CV.tex:146: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.146 \hfill
-             Approved: \hrulefill
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+(Font)              Font shape `OT1/qpl/m/it' tried instead on input line 140.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./CV.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./CV_Adrian_Udovičić.aux) ) 
 Here is how much of TeX's memory you used:
- 2863 strings out of 478287
- 49528 string characters out of 5849290
- 373461 words of memory out of 5000000
- 21056 multiletter control sequences out of 15000+600000
- 510803 words of font info for 55 fonts, out of 8000000 for 9000
+ 2859 strings out of 478287
+ 49670 string characters out of 5849289
+ 372518 words of memory out of 5000000
+ 21053 multiletter control sequences out of 15000+600000
+ 506587 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,5n,62p,235b,178s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,5n,62p,253b,178s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-rm-sc.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-rm.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texmf/fonts/type1/public/tex-gyre/qagb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on CV.pdf (1 page, 209811 bytes).
+Output written on CV_Adrian_Udovičić.pdf (1 page, 213145 bytes).
 PDF statistics:
  39 PDF objects out of 1000 (max. 8388607)
  24 compressed objects within 1 object stream

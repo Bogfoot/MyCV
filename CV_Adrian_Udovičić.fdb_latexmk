@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1711213200 "CV_Adrian_Udovičić.tex" "CV_Adrian_Udovičić.pdf" "CV_Adrian_Udovičić" 1711213200
+["pdflatex"] 1724609974 "CV_Adrian_Udovičić.tex" "CV_Adrian_Udovičić.pdf" "CV_Adrian_Udovičić" 1724609974
   "/etc/texmf/web2c/texmf.cnf" 1701734211 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -53,8 +53,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1709648358 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1710430411 2800412 a1920038dd817276b116b1c69c74f40e ""
-  "CV_Adrian_Udovičić.aux" 1711213200 112 d2ca28f0a8afe573a12973a007b9ea93 "pdflatex"
-  "CV_Adrian_Udovičić.tex" 1711213198 5078 69c054663cc2e64d0d976da62c1b7d2c ""
+  "CV_Adrian_Udovičić.aux" 1724609974 112 d2ca28f0a8afe573a12973a007b9ea93 "pdflatex"
+  "CV_Adrian_Udovičić.tex" 1724609973 5064 4a638f252897b5f73d97ca4f6b9d8b27 ""
   (generated)
   "CV_Adrian_Udovičić.aux"
   "CV_Adrian_Udovičić.log"
